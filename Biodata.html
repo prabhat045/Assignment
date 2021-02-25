@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'> 
+<title>BioData</title>    
+<style>
+    input{ 
+        border: 1px solid darkgray;
+        border-radius: 3px;
+      
+    } 
+</style>    
+</head>
+<body>
+<h1>My Bio Data</h1>
+    
+ <form action=" ">   
+<form  >
+<fieldset>
+<legend>Personal Information</legend>    
+<label for="fname">FirstName:</label>
+<input type="text" placeholder="First Name" required>
+<label for="lname">LastName:</label>
+<input type="text" placeholder="Last Name" required> 
+    <br>
+    <br>
+    
+<label for="Male">Male:</label>
+<input type="radio">
+<label for="female">Female:</label>
+<input type="radio">
+<label for="other">Other:</label>
+<input type="radio">       
+<br>
+<br>
+<label for="DOB">Date of Birth:</label>
+<input type="date" required> 
+<br>
+<br>
+<label for="email">E-Mail:</label>
+<input type="Email" placeholder="Enter Your Email" required> 
+<br>
+<br>  
+<label for="phone">Phone</label>
+ <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="+91" required>
+<br>
+<br>  
+<label for="Height">Height</label>
+<input type="text" placeholder="Height in Feet" required> 
+<br>
+<br> 
+    </fieldset>
+    
+    </form>    
+<form  >
+<fieldset>
+<legend>Education</legend>    
+<label for="School">School Name:</label>
+<input type="text" placeholder="School Name" required>
+<br>
+<br>
+<label for="Class">Class:</label>
+<input type="text"placeholder="Enter Class" required>
+<br>
+<br>
+<label for="Stream" placeholder="Stream">Stream:</label>
+<select id="stream">
+     <option value="Stram">Stream</option>
+    <option value="Science">Science</option>
+    <option value="Managment">Manangment</option>
+    </select>    
+<br>
+<br>    
+<label for="Marksheet">Marksheet:</label> 
+ <input type="file" style="border-color: darkgray">    
+</fieldset>    
+</form>
+ <br>
+<input type="submit"></form>    
+    
+      
+    
+    
+    
+</body>    
+</html>
