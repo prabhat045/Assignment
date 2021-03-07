@@ -1,0 +1,39 @@
+
+
+html,
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    overflow-x: hidden;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+}
+button{
+    background: none;
+    border: 2px solid;
+    border-color: aqua;
+    color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: chartreuse;
+    border-color: chartreuse;
+    box-shadow: 0 0.5em 0.5em -0.4em  chartreuse;
+     transition: 0.55s;
+    transform: translateY(-0.5em);
+    
+}
